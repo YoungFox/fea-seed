@@ -1,0 +1,37 @@
+{
+  "name": "fea-seed",
+  "version": "1.0.0",
+  "description": "fea初始化的目录&amp;文件",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "babel-preset-es2015": "^6.9.0",
+    "babel-core": "^6.9.0",
+    "babel-loader": "^6.2.4",
+    "css-loader": "^0.23.1",
+    "browser-sync": "^2.12.8",
+    "extract-text-webpack-plugin": "^1.0.1",
+    "gulp": "^3.9.1",
+    "html-loader": "^0.4.3",
+    "gulp-util": "^3.0.7",
+    "gulp-sass": "^2.3.1",
+    "html-webpack-plugin": "^2.17.0",
+    "url-loader": "^0.5.7",
+    "webpack-dev-server": "^1.14.1",
+    "style-loader": "^0.13.1",
+    "webpack": "^1.13.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YoungFox/fea-seed.git"
+  },
+  "author": "YoungFox",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/YoungFox/fea-seed/issues"
+  },
+  "homepage": "https://github.com/YoungFox/fea-seed#readme"
+}
