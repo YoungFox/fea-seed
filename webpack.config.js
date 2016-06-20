@@ -77,7 +77,7 @@ module.exports={
         }
     },
     cache: true,
-    devtool:'source-map'
+    // devtool:'source-map'
 };
 
 
