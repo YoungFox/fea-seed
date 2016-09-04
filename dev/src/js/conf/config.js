@@ -1,4 +1,4 @@
-var config = {
+let config = {
 	a:1,
 	b:2
 }

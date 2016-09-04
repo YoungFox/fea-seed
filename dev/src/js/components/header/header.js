@@ -1,20 +1,18 @@
-var dot = require('../../lib/doT.js');
-var css = require('./header.css');
-var tpl = require('./tpl.js');
-var d = require('./data.js');
+let dot = require('../../lib/doT.js');
+let css = require('./header.css');
+let tpl = require('./tpl.js');
+let d = require('./data.js');
 // console.log($);
-var Header= function (){
-	this.title = d.title;
-}
-
-Header.prototype = {
-	constructor: Header,
-	init: function (){
-		var tplFn = dot.template(tpl);
-		var html = tplFn(d);
-		$('body').append(html);
-	},
-	show: function (){
+class Header{
+	constructor(){
+		this.title = d.title;
+	}
+	init(){
+		let tplFn = dot.template(tpl);
+		let html = tplFn(d);
+		$('body').prepend(html);
+	}
+	show(){
 
 	}
 }

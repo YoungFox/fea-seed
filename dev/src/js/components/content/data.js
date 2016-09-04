@@ -1,4 +1,4 @@
 let data = {
-	title:'组件 #header# 的title'
+	detail:'我是内容'
 }
 module.exports = data;

@@ -1,0 +1,10 @@
+.content{
+	height: 400px;
+	background: #00be3c;
+	color: #fff;
+	text-align: center;
+	line-height: 40px;
+}
+.content a{
+	color: #fff;
+}
